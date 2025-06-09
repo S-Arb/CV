@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sofiane Arbane - CV</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="conteneur">
+    <header>
+        <img src="images/pp.jpg" alt="Photo de Sofiane Arbane" class="photo-profil" />
+        <h1>Sofiane Arbane</h1>
+        <p>Apprenti Développeur Web • Permis B • Véhiculé </p>
+        <p class="contact">📞 07 68 64 73 78 | 📧<a href="https://mail.google.com/mail/?view=cm&fs=1&to=arbanesofiane@gmail.com" target="_blank" class="email-link" title="Envoyer un email">  arbanesofiane@gmail.com</a> | 📍 Sevran (93270) | 📝<a href="documents/CV 2025i (1).pdf" class="cv" target="_blank">CV</a></p>
+        <button id="darkModeToggle">🌙 Mode sombre</button>
+    </header>
+
+    <section>
+        <h2>✍🏼À propos✍🏼</h2>
+        <p>Rigoureux, adaptable et curieux, je me forme au développement web avec l’ambition de contribuer à des projets concrets et utiles. Mon parcours professionnel et personnel, marqué par la polyvalence et l’engagement humain — notamment dans le social et l’associatif — m’a appris à travailler en équipe, d'être à l'écouter et à m’adapter à des environnements variés, je peux très bien travailler en équipe, comme en autonomie totale. Aujourd’hui, je mets cette expérience au service du numérique avec motivation et sérieux.</p>
+    </section>
+
+    <section>
+        <h2>🛠️Compétences Techniques🛠️</h2>
+        <ul>
+            <li>Langages : Python, C, CSS, HTML, PHP, Javascript</li>
+            <li>Logiciels : LibreOffice, Ubuntu, Excel, Visual Studio Code, GitHub, VirtualBox</li>
+            <li>Autres : Outils de mesure, contrôle dimensionnel (CND)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Compétences personnelles</h2>
+            <ul>
+                <li>Esprit d'équipe</li>
+                <li>Autonomie</li>
+                <li>Polyvalence</li>
+                <li>Écoute</li>
+                <li>Capacité d’adaptation</li>
+                <li>Sens des responsabilités</li>
+    </ul>
+
+</section>
+
+    <section>
+        <h2>💼Expériences Professionnelles💼</h2>
+
+        <div class="job">
+            <h3>Agent Composite - Airbus, Dugny</h3>
+            <p>Semptembre 2024</p>
+            <ul>
+                <li>Moulage, démoulage, ajustage de pièces en composite</li>
+                <li>Suivi des protocoles et traçabilité</li>
+                <li>Contrôle visuel et dimensionnel</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Vendeur Assistant - Picard, Blanc-Mesnil</h3>
+            <p>Avril 2024 - Mai 2024</p>
+            <ul>
+                <li>Mise en rayon, réception marchandise, caisse</li>
+                <li>Préparation de commandes, entretien du magasin</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Employé Polyvalent - Lidl, Drancy</h3>
+            <p>Juin 2019 - Avril 2024</p>
+            <ul>
+                <li>Gestion des stocks, des livraisons, des équipes et de la priorité des tâches</li>
+                <li>Mise en rayon, caisse</li>
+                <li>Gestion des réclamations clients</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Service Civique - Double Sens, Drancy</h3>
+            <p>Juin 2023 - Décembre 2023</p>
+            <ul>
+                <li>Aide aux devoirs, accompagnements, sorties</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Bénévole - La Marche à Suivre, Paris</h3>
+            <p>2019 - 2020</p>
+            <ul>
+                <li>Maraudes, organisation d’équipes et du parcours, accompagnement</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Manœuvre sur chantiers - Paris</h3>
+            <p>Juin 2017 - Septembre 2017 & Juin 2018 - Septembre 2018</p>
+            <ul>
+                <li>Implémentation, lecture de plans</li>
+                <li>Gestion des équipes et de la circulation</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Formation</h2>
+        <ul>
+            <li><strong>Développeur/Intégrateur Web</strong> – OpenClassrooms</li>
+            <li><strong>CQPM 007</strong> – AFORP</li>
+            <li><strong>Niveau Licence Informatique</strong></li>
+            <li><strong>Baccalauréat Scientifique - SVT</strong> – Lycée Blaise Cendrars, Sevran</li>
+            <li><strong>Séjour linguistique</strong> – Londres</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🌐Langues🌐</h2>
+        <ul>
+            <li>Français : Langue maternelle</li>
+            <li>Anglais : Niveau B1</li>
+            <li>Espagnol : Niveau scolaire</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Centres d’intérêt</h2>
+        <p>Sport, Lecture, Jardinage, Esport, Echecs, Jeux Vidéos</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sofiane Arbane | Contact : <a href="https://mail.google.com/mail/?view=cm&fs=1&to=arbanesofiane@gmail.com" target="_blank" class="email-link" title="Envoyer un email">arbanesofiane@gmail.com</a></p>
+    </footer>
+    </div>
+
+    <!--Javascript-->
+    <script>
+        const toggleButton = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            toggleButton.textContent = body.classList.contains('dark-mode') ? '☀️ Mode Clair' : '🌙 Mode Sombre';
+        });
+    </script>
+<!--Fin Javascript-->
+
+</body>
+</html>

@@ -73,7 +73,7 @@ Breakdown :
 Couleur rgba(0,0,0,0.5) → noir semi-transparent.
  Donne un effet légèrement 3D.
 
-*/
+*/ 
 .email-link { 
     color: black; 
     text-decoration: underline;
@@ -155,6 +155,47 @@ footer {
     border-radius: 10px;
     color: white;
     font-size: 0.9em;
+}
+
+/* Cartes des projets */
+.project-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    margin-bottom: 15px;
+}
+
+
+.project-button {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.project-button:hover {
+    transform: translateX(3px);
+    opacity: 0.8;
 }
 /* sur téléphone en cours d'apprentissage
 @media (max-width: 600px) {
